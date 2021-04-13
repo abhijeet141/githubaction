@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: derekprior/add-autoresponse@ef9fab24927e98835d55c976ac1af2138492206e
+    - uses: derekprior/add-autoresponse@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:

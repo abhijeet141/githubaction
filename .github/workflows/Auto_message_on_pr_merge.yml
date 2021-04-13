@@ -1,4 +1,4 @@
-name: Auto message on pr merge
+name: add-autoresponse
 
 on:
   pull_request:
